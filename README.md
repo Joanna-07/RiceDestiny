@@ -61,31 +61,18 @@ Uploaded rice image with 22 grains detected and highlighted individually.
 
 
 ![Screenshot4](SS4.png)
-*Add caption explaining what this shows*
+Rice Destiny assigns all 22 detected grains to Sandra and displays the assignment details in the diagnostic log and grain registry.
 
 # Diagrams
 ![Workflow](workflow.png)
 This diagram illustrates the project's workflow, from user input to OpenCV detection and voice output.
 
-Rice Destiny assigns all 22 detected grains to Sandra and displays the assignment details in the diagnostic log and grain registry.
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[Demo Video](https://drive.google.com/file/d/1fSQtICxVKDe06YUtW6tNCAdTspaBQOLI/view?usp=drive_link)
+This video demonstrates the full functionality of the Rice Destiny application, from adding participants to grain detection and the voice feature.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Sandra M C:  Implemented the computer vision logic for grain detection and tracking. Contributed to the front-end structure and functionality.
