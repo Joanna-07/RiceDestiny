@@ -21,7 +21,7 @@ RiceDestiny is a fun rice detection and “destiny assignment” web app that us
 You're deep into a plate of biryani or mandi, and a terrible thought creeps in — what if a grain meant for your friend has ended up on your plate by mistake? That's not just bad luck, that's a disruption of cosmic rice-balance, and frankly, the meal can't taste right until it's resolved.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Rice Destiny uses advanced-ish image processing to detect rice grains and a completely unnecessary random destiny engine to decide which person each grain belongs to. Add names, scan some rice, and discover who the rice gods have chosen!
 
 ## Technical Details
 ### Technologies/Components Used
