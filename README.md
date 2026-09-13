@@ -50,18 +50,24 @@ cd rice-destiny
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](SS1.png)
+A screenshot showing the main interface where participants can add their names and image of rice.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot2](SS2.png)
+Uploaded rice image with 22 grains detected and highlighted individually.
+
+![Screenshot3](SS3.png)
+
+
+![Screenshot4](SS4.png)
 *Add caption explaining what this shows*
 
 # Diagrams
 ![Workflow](workflow.png)
-*Add caption explaining your workflow*
+This diagram illustrates the project's workflow, from user input to OpenCV detection and voice output.
+
+Rice Destiny assigns all 22 detected grains to Sandra and displays the assignment details in the diagnostic log and grain registry.
 
 # Build Photos
 ![Components](Add photo of your components here)
