@@ -43,7 +43,9 @@ The destiny assignment system randomly selects a registered person and assigns a
 Clone the repository:
 
 git clone https://github.com/Joanna-07/RiceDestiny.git
+
 Open the project folder in VS Code.
+
 Open index.html in a browser.
 
 # Run
