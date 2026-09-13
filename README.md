@@ -60,7 +60,7 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+![Workflow](workflow.png)
 *Add caption explaining your workflow*
 
 # Build Photos
