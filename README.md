@@ -14,11 +14,12 @@
 - Member 2 :Joanna Mariyam Raju - Mar Athanasius College of Engineering, Kothamangalam
 
 ### Project Description
-"Lalettan says, 'ഓരോ അരിമണിയിലും അത് കഴിക്കേണ്ടവന്റെ പേര് എഴുതിയിട്ടുണ്ട്' (Every grain of rice has the name of the person who should eat it). But how many of us know which is ours? We will help you find out!"
-RiceDestiny is a fun rice detection and “destiny assignment” web app that uses your camera or uploaded image to identify individual rice grains, track them, and randomly decide who gets to eat them.
+RiceDestiny is a fun rice detection and “destiny assignment” web app that uses your camera or uploaded image to identify individual rice grains, track them, and randomly decide who gets to eat them. Because, Lalettan said: “ഓരോ അരിമണിയിലും അത് കഴിക്കേണ്ട ആളുടെ പേരുണ്ട്!” 
+Scan the rice, add the names, and let GrainDestiny reveal the ultimate fate of every grain. 💀✨
 
 ### The Problem (that doesn't exist)
-You're deep into a plate of biryani or mandi, and a terrible thought creeps in — what if a grain meant for your friend has ended up on your plate by mistake? That's not just bad luck, that's a disruption of cosmic rice-balance, and frankly, the meal can't taste right until it's resolved.
+
+Have you ever stared at a rice grain and thought, “Who does this tiny carbohydrate belong to?” In a world where rice grains are constantly separated from their destined humans, dining-table identity crises are becoming a completely imaginary emergency.
 
 ### The Solution (that nobody asked for)
 Rice Destiny uses advanced-ish image processing to detect rice grains and a completely unnecessary random destiny engine to decide which person each grain belongs to. Add names, scan some rice, and discover who the rice gods have chosen!
@@ -26,7 +27,6 @@ Rice Destiny uses advanced-ish image processing to detect rice grains and a comp
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-
 JavaScript (vanilla, no frameworks)
 HTML5 / CSS3
 Canvas API — getImageData, flood-fill blob detection, frame-to-frame grain tracking
@@ -36,9 +36,16 @@ Single-file app, no build tools required
 
 ### Implementation
 For Software:
+The application uses browser-based image processing to identify bright, low-saturation regions that resemble rice grains. It filters regions based on size and shape, tracks detected grains, and displays their information in a dashboard.
+The destiny assignment system randomly selects a registered person and assigns all detected grains in the current frame to that person.
+
 # Installation
-git clone 
-cd rice-destiny
+Clone the repository:
+
+git clone https://github.com/Joanna-07/RiceDestiny.git
+Open the project folder in VS Code.
+Open index.html in a browser.
+
 # Run
 1. Open the index.html file in a modern browser (like Chrome).
 2. Enter the names of the participants.
