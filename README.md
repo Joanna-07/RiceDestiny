@@ -2,23 +2,23 @@
 
 
 
-# [Project Name] 🎯
+# Rice Destiny 
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Infinix
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead : Sandra M C - Mar Athanasius College of Engineering, Kothamangalam
+- Member 2 :Joanna Mariyam Raju - Mar Athanasius College of Engineering, Kothamangalam
 
 ### Project Description
-[2-3 lines about what your project does]
+"Lalettan says, 'ഓരോ അരിമണിയിലും അത് കഴിക്കേണ്ടവന്റെ പേര് എഴുതിയിട്ടുണ്ട്' (Every grain of rice has the name of the person who should eat it). But how many of us know which is ours? We will help you find out!"
+RiceDestiny is a fun rice detection and “destiny assignment” web app that uses your camera or uploaded image to identify individual rice grains, track them, and randomly decide who gets to eat them.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+You're deep into a plate of biryani or mandi, and a terrible thought creeps in — what if a grain meant for your friend has ended up on your plate by mistake? That's not just bad luck, that's a disruption of cosmic rice-balance, and frankly, the meal can't taste right until it's resolved.
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
@@ -26,23 +26,25 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+JavaScript (vanilla, no frameworks)
+HTML5 / CSS3
+Canvas API — getImageData, flood-fill blob detection, frame-to-frame grain tracking
+MediaDevices getUserMedia — live camera feed
+Web Speech API (SpeechSynthesis) — voice announcements
+Single-file app, no build tools required
 
 ### Implementation
 For Software:
 # Installation
-[commands]
-
+git clone 
+cd rice-destiny
 # Run
-[commands]
+1. Open the index.html file in a modern browser (like Chrome).
+2. Enter the names of the participants.
+3. Click "Start Camera".
+4. Point the camera at the scattered grains of rice.
+5. Watch the magic happen as your destined grains get discovered!
 
 ### Project Documentation
 For Software:
@@ -60,15 +62,6 @@ For Software:
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Components](Add photo of your components here)
@@ -89,9 +82,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Sandra M C:  Implemented the computer vision logic for grain detection and tracking. Contributed to the front-end structure and functionality.
+- Joanna Mariyam Raju : Implemented the Web Speech API features, including the funny voice responses and multilingual support. Contributed to the front-end design, and wrote the project's README file.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
